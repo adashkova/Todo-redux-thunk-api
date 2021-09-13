@@ -1,0 +1,30 @@
+button {
+  text-decoration: none;
+  text-align: center;
+  width: 80px;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.add_btn {
+  background-color: #13575e;
+  height: 44px;
+}
+.delete_btn {
+  color: #f33737;
+  border: #f14c4c 1px solid;
+  min-width: 80px;
+  max-height: 55px;
+}
+
+.add_btn:hover {
+  background-color: #37949c;
+}
+.delete_btn:hover {
+  background-color: #f36461;
+  color: #fff;
+}

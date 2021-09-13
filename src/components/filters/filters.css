@@ -1,0 +1,28 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+li {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.filters {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.filters p {
+  margin-right: 20px;
+}
+.filters li:hover {
+  color: #345b63;
+  cursor: pointer;
+}
+
+.active {
+  border-top: 2px solid #152d35;
+  color: #22738f;
+}
